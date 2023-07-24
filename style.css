@@ -1,0 +1,138 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Header Design */
+.header{
+    background-color: rgb(31, 130, 201);
+    color: rgb(240,240,240);
+    height: 10vh;
+    position: relative;
+}
+
+.logo{
+    height: 2.5rem;
+    width: 2.5rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-70%);
+}
+
+.header div{
+    position: absolute;
+    right: 0px;
+    top:0px;
+}
+
+.list-item{
+    display: flex;
+    list-style-type: square;
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.list-item li{
+    margin-left: 3rem;
+    font-weight: bold;   
+}
+
+.link a{
+    font-weight: bold;
+    color: rgb(240,240,240);
+}
+
+/* Main Design */
+.main-heading{
+    border-bottom: 2px dotted gray;
+    color: blue;
+    margin-top: 0.6rem;
+    margin-left: 0.4rem;
+    height: 5vh;
+}
+
+.wrapper{
+    border: 2px solid gray;
+    margin: 10px;
+}
+
+.section-one{
+    margin-top: 0.4rem;
+}
+
+.section-one div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item2{
+    list-style-type: none;
+    display: flex;
+}
+
+.list-item2 li{
+    margin-right: 2.5rem;
+    font-weight: bold;
+}
+
+.list-item2 li a{
+    color: blue;
+}
+
+.list-item2 :last-child{
+    margin-right: 0.3rem;
+}
+
+.table{
+    width: 100%;
+    margin: 0.7rem 0rem;
+    border-collapse: collapse;
+}
+
+.table thead {
+    background-color: rgb(89, 89, 172);
+    color: white;
+}
+
+th, td{
+    text-align: left;
+    border: 1px solid gray;
+    height: 1.7rem;
+    padding-left: 0.3rem;
+}
+
+td{
+    background-color: rgb(240,240, 240);
+}
+
+.sub-heading{
+    padding-left: 0.3rem;
+}
+
+button{
+    display: block;
+    margin: auto;
+    font-weight: bold;
+    color: blue;
+    background-color: rgb(197, 196, 196);
+    border: 1px solid green;
+    padding: 0.15rem 0.8rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.tab-details td:nth-child(4){
+    font-weight: bold;
+    color: red;
+}
+
+.tab-details td:nth-child(5){
+    color: blue;
+}
+
